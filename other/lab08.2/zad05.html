@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <label for="name">Imie: </label>
+    <input type="text" required id="name" name="name">
+    <label for="surname"> nazwisko</label>
+    <input type="text" required id="surname" name="surname">
+    <label for="email">email</label>
+    <input type="email" id="email" name="email" required>
+    <fieldset id="subscription">
+      <legend>
+      wybierz subskrypcje
+      </legend>
+        <input type="radio" id="premium" name="subscription" value="premium">
+        <input type="radio" id="basic" name="subscription" value="basic">
+        <input type="radio" id="ultimate" name="subscription" value="ultimate">
+    </fieldset>
+  <button type="submit">sub</button>
+  </form>
+</body>
+</html>
