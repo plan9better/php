@@ -32,3 +32,18 @@ select, input{
 #submit{
   float: right;
 }
+
+#success{
+  background-color: green;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 1rem;
+}
+
+#error{
+
+  background-color: red;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 1rem;
+}
