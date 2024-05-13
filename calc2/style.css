@@ -29,13 +29,6 @@ select, input{
   padding: 10px;
 }
 
-#success{
-  background-color: green;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 1rem;
-}
-
 #submit{
   float: right;
 }
